@@ -1,0 +1,93 @@
+@media screen and (max-width:1250px)
+{
+ .container
+  {
+    max-width: 1050px ;
+  }
+  #boxes .container .blogs
+  {
+    display: flex;
+    justify-content: center;
+  }
+  #boxes .container .blogs .blog:last-child
+  {
+    display: none;
+  }
+  #archive .container 
+  {
+    margin: 0 3rem;
+  }
+  .instagram img:nth-child(5),
+  .instagram img:nth-child(6)
+  {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 900px)
+{ 
+
+  .btn
+  {
+    padding: 8px 25px;
+    font-size: 13px;
+  }
+  .btn1
+  {
+    padding: 8px 25px;
+    font-size: 13px;
+  }
+  .container
+  {
+    max-width: 800px ;
+  }
+  .social
+  {
+    display: none;
+  }
+  #showcase .showcase-content h1
+  {
+    font-size: 38px;
+  }
+  #showcase .showcase-content p
+  {
+    font-size: 16px;
+  }
+  #boxes .container .blogs
+  {
+    margin: auto;
+  }
+  #boxes .container .blogs .blog:nth-child(2)
+  {
+    display: none;
+  }
+  #archive .container .archive-content .icons
+  {
+  /* text-align: center;
+  color: var(--text-gray);
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 20px;
+  background: #c2e9fb;
+  margin: auto;
+  margin-bottom: 10px;
+  font-weight: 400; */
+  font-size: 10px;
+  width:46%;
+  }
+  #footer
+  {
+    grid-template-columns: 1fr;
+  }
+  #footer > *:last-child
+{
+  grid-column: 1 ;
+  text-align: center;
+}
+#footer div
+{
+  padding: 20px 0;
+  border-bottom: 1px dotted #a1c4fd;
+}
+}
